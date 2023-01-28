@@ -1,6 +1,6 @@
-module github.com/pterm/cli-template
+module github.com/x0f5c3/wsl-dl
 
-go 1.18
+go 1.19
 
 require (
 	github.com/pterm/pcli v0.4.6
