@@ -14,22 +14,6 @@
 iwr instl.sh/x0f5c3/wsl-dl/windows | iex
 ```
 
-#### ** Linux **
-
-### Linux Command
-
-```bash
-curl -sSL instl.sh/x0f5c3/wsl-dl/linux | bash
-```
-
-#### ** macOS **
-
-### macOS Command
-
-```bash
-curl -sSL instl.sh/x0f5c3/wsl-dl/macos | bash
-```
-
 #### ** Compile from source **
 
 ### Compile from source with Golang

@@ -59,13 +59,3 @@ Run the following command in a terminal and you're ready to go!
 ```powershell
 {{ .InstallCommandWindows }}
 ```
-
-**macOS**
-```bash
-{{ .InstallCommandMacOS }}
-```
-
-**Linux**
-```bash
-{{ .InstallCommandLinux }}
-```

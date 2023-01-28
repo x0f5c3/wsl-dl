@@ -18,7 +18,7 @@ var rootCmd = &cobra.Command{
 	Use:     "wsl-dl [output directory]",
 	Args:    cobra.MaximumNArgs(1),
 	Short:   "This cli tool will download WSL distros as zip files and unpack them to allow for custom installations",
-	Version: "v0.0.3", // <---VERSION---> Updating this version, will also create a new GitHub release.
+	Version: "v0.0.4", // <---VERSION---> Updating this version, will also create a new GitHub release.
 	// Uncomment the following lines if your bare application has an action associated with it:
 	RunE: runE,
 }

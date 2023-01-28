@@ -6,11 +6,10 @@ before:
 gomod:
   proxy: true
 builds:
-  - id: "lin-win"
+  - id: "win"
     env:
       - CGO_ENABLED=0
     goos:
-      - linux
       - windows
     goarch:
       - amd64
@@ -21,27 +20,6 @@ builds:
       - -trimpath
     ldflags:
       - -s -w -X main.version={{.Version}} -X main.commit={{.Commit}} -X main.date={{ .CommitDate }} -X main.builtBy=pterm
-  - id: mac-build
-    env:
-      - CGO_ENABLED=0
-    goos:
-      - darwin
-    goarch:
-      - amd64
-      - arm64
-    mod_timestamp: '{{ .CommitTimestamp }}'
-    flags:
-      - -trimpath
-    ldflags:
-      - -s -w -X main.version={{.Version}} -X main.commit={{.Commit}} -X main.date={{ .CommitDate }} -X main.builtBy=pterm
-
-universal_binaries:
-  - id: mac-universal
-    ids:
-      - mac-build
-    name_template: "{{ .ProjectName }}-Universal"
-    replace: true
-
 checksum:
   name_template: '{{ .ProjectName }}.sha256'
 
@@ -57,12 +35,11 @@ changelog:
       - Merge branch
       - go mod tidy
 archives:
-  - id: lin-win
+  - id: win
     name_template: '{{ .ProjectName }}_{{ .Os }}_{{ .Arch }}{{ if .Arm }}v{{ .Arm }}{{ end }}'
     builds:
-      - lin-win
+      - win
     replacements:
-      linux: Linux
       windows: Windows
     format_overrides:
       - goos: windows
@@ -74,7 +51,5 @@ release:
   ids:
     - none
   extra_files:
-    - glob: ./dist/*-Universal*/doc-go-Universal*
     - glob: ./dist/*.sha256
-    - glob: ./dist/*.tar.gz
     - glob: ./dist/*.zip

@@ -59,13 +59,3 @@ Run the following command in a terminal and you're ready to go!
 ```powershell
 iwr instl.sh/x0f5c3/wsl-dl/windows | iex
 ```
-
-**macOS**
-```bash
-curl -sSL instl.sh/x0f5c3/wsl-dl/macos | bash
-```
-
-**Linux**
-```bash
-curl -sSL instl.sh/x0f5c3/wsl-dl/linux | bash
-```

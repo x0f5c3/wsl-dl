@@ -14,22 +14,6 @@
 {{ .InstallCommandWindows }}
 ```
 
-#### ** Linux **
-
-### Linux Command
-
-```bash
-{{ .InstallCommandLinux }}
-```
-
-#### ** macOS **
-
-### macOS Command
-
-```bash
-{{ .InstallCommandMacOS }}
-```
-
 #### ** Compile from source **
 
 ### Compile from source with Golang
