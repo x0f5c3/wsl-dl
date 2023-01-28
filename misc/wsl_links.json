@@ -1,0 +1,70 @@
+[
+  {
+    "Name": "<a href=\"https://aka.ms/wslubuntu\" data-linktype=\"external\">Ubuntu</a>",
+    "Link": "https://aka.ms/wslubuntu"
+  },
+  {
+    "Name": "<a href=\"https://aka.ms/wslubuntu2204\" data-linktype=\"external\">Ubuntu 22.04 LTS</a>",
+    "Link": "https://aka.ms/wslubuntu2204"
+  },
+  {
+    "Name": "<a href=\"https://aka.ms/wslubuntu2004\" data-linktype=\"external\">Ubuntu 20.04</a>",
+    "Link": "https://aka.ms/wslubuntu2004"
+  },
+  {
+    "Name": "<a href=\"https://aka.ms/wslubuntu2004arm\" data-linktype=\"external\">Ubuntu 20.04 ARM</a>",
+    "Link": "https://aka.ms/wslubuntu2004arm"
+  },
+  {
+    "Name": "<a href=\"https://aka.ms/wsl-ubuntu-1804\" data-linktype=\"external\">Ubuntu 18.04</a>",
+    "Link": "https://aka.ms/wsl-ubuntu-1804"
+  },
+  {
+    "Name": "<a href=\"https://aka.ms/wsl-ubuntu-1804-arm\" data-linktype=\"external\">Ubuntu 18.04 ARM</a>",
+    "Link": "https://aka.ms/wsl-ubuntu-1804-arm"
+  },
+  {
+    "Name": "<a href=\"https://aka.ms/wsl-ubuntu-1604\" data-linktype=\"external\">Ubuntu 16.04</a>",
+    "Link": "https://aka.ms/wsl-ubuntu-1604"
+  },
+  {
+    "Name": "<a href=\"https://aka.ms/wsl-debian-gnulinux\" data-linktype=\"external\">Debian GNU/Linux</a>",
+    "Link": "https://aka.ms/wsl-debian-gnulinux"
+  },
+  {
+    "Name": "<a href=\"https://aka.ms/wsl-kali-linux-new\" data-linktype=\"external\">Kali Linux</a>",
+    "Link": "https://aka.ms/wsl-kali-linux-new"
+  },
+  {
+    "Name": "<a href=\"https://aka.ms/wsl-sles-12\" data-linktype=\"external\">SUSE Linux Enterprise Server 12</a>",
+    "Link": "https://aka.ms/wsl-sles-12"
+  },
+  {
+    "Name": "<a href=\"https://aka.ms/wsl-SUSELinuxEnterpriseServer15SP2\" data-linktype=\"external\">SUSE Linux Enterprise Server 15 SP2</a>",
+    "Link": "https://aka.ms/wsl-SUSELinuxEnterpriseServer15SP2"
+  },
+  {
+    "Name": "<a href=\"https://aka.ms/wsl-SUSELinuxEnterpriseServer15SP3\" data-linktype=\"external\">SUSE Linux Enterprise Server 15 SP3</a>",
+    "Link": "https://aka.ms/wsl-SUSELinuxEnterpriseServer15SP3"
+  },
+  {
+    "Name": "<a href=\"https://aka.ms/wsl-opensuse-tumbleweed\" data-linktype=\"external\">openSUSE Tumbleweed</a>",
+    "Link": "https://aka.ms/wsl-opensuse-tumbleweed"
+  },
+  {
+    "Name": "<a href=\"https://aka.ms/wsl-opensuseleap15-3\" data-linktype=\"external\">openSUSE Leap 15.3</a>",
+    "Link": "https://aka.ms/wsl-opensuseleap15-3"
+  },
+  {
+    "Name": "<a href=\"https://aka.ms/wsl-opensuseleap15-2\" data-linktype=\"external\">openSUSE Leap 15.2</a>",
+    "Link": "https://aka.ms/wsl-opensuseleap15-2"
+  },
+  {
+    "Name": "<a href=\"https://aka.ms/wsl-oraclelinux-8-5\" data-linktype=\"external\">Oracle Linux 8.5</a>",
+    "Link": "https://aka.ms/wsl-oraclelinux-8-5"
+  },
+  {
+    "Name": "<a href=\"https://aka.ms/wsl-oraclelinux-7-9\" data-linktype=\"external\">Oracle Linux 7.9</a>",
+    "Link": "https://aka.ms/wsl-oraclelinux-7-9"
+  }
+]
