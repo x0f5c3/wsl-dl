@@ -4,14 +4,14 @@ go 1.19
 
 require (
 	github.com/pterm/pcli v0.4.6
-	github.com/pterm/pterm v0.12.50
+	github.com/pterm/pterm v0.12.54
 	github.com/spf13/cobra v1.5.0
 	github.com/x0f5c3/manic-go v0.5.10
 )
 
 require (
 	atomicgo.dev/cursor v0.1.1 // indirect
-	atomicgo.dev/keyboard v0.2.8 // indirect
+	atomicgo.dev/keyboard v0.2.9 // indirect
 	github.com/andybalholm/brotli v1.0.4 // indirect
 	github.com/containerd/console v1.0.3 // indirect
 	github.com/gookit/color v1.5.2 // indirect
@@ -36,6 +36,6 @@ require (
 	golang.org/x/net v0.0.0-20220811182439-13a9a731de15 // indirect
 	golang.org/x/sys v0.0.0-20220811171246-fbc7d0a398ab // indirect
 	golang.org/x/term v0.0.0-20220722155259-a9ba230a4035 // indirect
-	golang.org/x/text v0.4.0 // indirect
+	golang.org/x/text v0.6.0 // indirect
 	gopkg.in/natefinch/lumberjack.v2 v2.0.0 // indirect
 )
